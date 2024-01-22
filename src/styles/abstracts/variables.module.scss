@@ -1,0 +1,164 @@
+$inter-regular: 'inter-regular', Helvetica, 'sans-serif';
+$body-bg: #0C0E11;
+
+$text-primary: #fff;
+$text-secondary: #9197A4;
+$text-green: #37CBB0;
+$text-red: #D82C60;
+$text-link: #5367FE;
+$success: #37CBB0;
+$error: #D82C60;
+
+$border-primary: #272337;
+
+$header-border: #272337;
+$account-border: #272337;
+$trading-badge-color-hover: #fff;
+$trading-badge-bg: #1E1F28;
+$logo-border: #272337;
+$nav-item-color: #9197A4;
+$nav-item-color-hover: #5367FE;
+$nav-item-bg-hover: #16181F;
+$nav-item-color-active: #5367FE;
+$nav-item-bg-active: #16181F;
+
+$overview-bg: #14151B;
+$dashboard-bg: #14151B;
+$dashboard-heading-border: #272337;
+$dashboard-heading-color: #fff;
+
+$trade-bg: #292936;
+$bar-buy-hover-bg: #37CBB01A;
+$badge-token-border: rgba(145, 151, 164, 0.30);
+
+$card-bg: #16181F;
+$card-active-bg: rgba(83, 103, 254, 0.0784313725);
+$card-active-hover-bg: rgba(83, 103, 254, 0.0784313725);
+$card-default-bg: rgba(3, 6, 14, 0.7);
+$card-default-hover-bg: rgba(83, 103, 254, 0.0784313725);
+
+$order-border: #272337;
+$input-range-bg: #1E1F28;
+$order-input-range-bg: #0C0E11;
+$order-input-range-border: #4E525A;
+$slider-thumb-bg: #0C0E11;
+$slider-thumb-border: #9197A4;
+$form-control-bg: #1E1F28;
+$form-select-bg: #0C0E11;
+$form-select-border: rgba(145, 151, 164, 0.30);
+$sidebar-bg: #14151B;
+$sidebar-border: #272337;
+
+$glass-wrapper-scrollbar-track: rgba(0, 0, 0, 0.3);
+$glass-wrapper-thumb-bg: #9197A4;
+$glass-wrapper-thumb-outline: #708090;
+
+
+$table-header-border: #272337;
+$table-row-bg: #14151B;
+$table-bg: #14151B;
+$table-row-bg-hover: rgba(83, 103, 254, 0.08);
+
+
+$footer-border: #272337;
+
+$button-primary-bg: #5367FE;
+$button-primary-color: #fff;
+$button-primary-hover-bg: #485ADA;
+$button-primary-focus-bg: #394DE3;
+$button-primary-disabled-bg: #9197A4;
+
+$button-secondary-bg: #1E1F28;
+$button-secondary-color: #9197A4;
+$button-secondary-hover-bg: #1E1F28;
+$button-secondary-focus-bg: #14151B;
+$button-secondary-disabled-bg: #14151B;
+
+$button-order-bg: #16181F;
+$button-order-border: #272337;
+$button-order-color-active: #5367FE;
+$button-order-color-hover: #5367FE;
+$button-side-bar-bg: #14151B;
+$button-side-bar-active: rgba(83, 103, 254, 0.08);
+$button-get-data: #0C0E11;
+$button-pair-bg: #16181F;
+$button-switch-bg-active: #16181F;
+$button-switch-buy-border: #37CBB0;
+$button-switch-buy-bg: #37CBB012;
+$button-switch-buy-color: #37CBB0;
+$button-switch-sell-border: #ED0D51;
+$button-switch-sell-bg: #D82C601F;
+$button-switch-sell-color: #EC0047;
+
+$button-max-bg: #282A36;
+$button-max-color: #D82C60;
+$button-max-hover-bg: #303341;
+$button-max-focus-bg: #303341;
+$button-max-disabled-bg: #14151B;
+$button-max-hover-color: #FF0062;
+$button-max-hover-focus: #FF0062;
+
+$button-select-token-bg: #282A36;
+$button-select-token-color: #fff;
+$button-select-token-hover-bg: #303341;
+$button-select-token-disabled-bg: #ff0000;
+$button-select-token-disabled-color: #b6b6b6;
+$button-select-token-hover-color: #CCCCCC;
+$button-select-token-hover-focus: #fff;
+
+$is-active-color: #394DE3;
+$controls-button-bg: #0C0E11;
+$chart-button-color: #d7d5dd;
+$scrollbar-track-shadow: rgba(0, 0, 0, 0.3);
+$scrollbar-thumb-bg: darkgrey;
+$scrollbar-thumb-outline: slategrey;
+$button-tools-bg: #000;
+$button-tools-color: #3f3f3f;
+$button-tools-active: #2d2a2a38;
+$is-panding-active: #515780;
+$is-active-order: #5367FE;
+$tool-tip-bg: #333;
+$tool-tip-border: #333;
+$wrapper-green-scrollbar-shadow: rgba(0, 0, 0, 0.3);
+$wrapper-green-scrollbar-thumb: #9197A4;
+$wrapper-green-thumb-outline: slategrey;
+$wrapper-green-thumb-outline: #9197A4;
+
+$overlay-bg: rgba(0, 0, 0, 0.7);
+$popup-bg: #16181F;
+$popup-border: #201E28;
+$popup-confirm-block-bg: #1c2035;
+$spinner-bg: #5367FE;
+$remove-popup-content-bg: #1E1F28;
+$button-range-popup-bg: rgba(255, 255, 255, 0.05);
+$button-range-popup-hover: rgba(255, 255, 255, 0.1);
+$button-range-popup-color: #5367FE;
+
+$user-positions-bg: #14151B;
+$top-pools-bg: #14151B;
+$details-content-bg: #14151B;
+$top-pool-table-bg: #14151B;
+$pool-item-border: #272337;
+$pool-item-bg-hover: rgba(83, 103, 254, 0.08);
+$percentage-bg: #252734;
+$indicator-bg: #1E1F28;
+$indicator-bg-before: #37CBB0;
+$exchange-token-bg: rgba(20, 21, 27, 0.50);
+$top-pool-info-bg: rgba(20, 21, 27, 0.50);
+$top-table-header-border: #272337;
+$top-table-row-border: #272337;
+
+$token-block-bg: #14151B;
+$symbol-bg: #1E1F28;
+$popup-is-actve: #D82C60;
+$popup-is-default: #000;
+$popup-box-shadow: rgba(0, 0, 0, 0.1);
+$popup-form-control-bg: #0C0E11;
+$popup-form-control-border: #4E525A;
+$install-wallet-popup-bg: #1E1F28;
+
+$swap-bg: rgba(255, 255, 255, 0.05);
+$token-block-swap-bg: #14151B;
+$image-circular-bg: #201E28;
+$input-container-bg: #1E1F28;
+$input-symbol-bg: #2b2c39;

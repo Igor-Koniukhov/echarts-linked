@@ -1,0 +1,148 @@
+@import '../../abstracts/variables.module.scss';
+
+.header {
+  padding: 12px 0;
+  border-bottom: 1px solid $header-border;
+  z-index: 1001;
+}
+
+.header-container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bar-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  border: 1px solid $account-border;
+  padding: 0 20px;
+  height: 40px;
+  border-radius: 6px;
+  margin-right: 18px;
+}
+
+.account-badge {
+  font-size: 14px;
+  line-height: 18px;
+  color: $text-secondary;
+  font-weight: 400;
+  font-family: $inter-regular;
+}
+
+.account-image {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-right: 12px;
+}
+
+.trading-badge {
+  padding: 0 20px 0 52px;
+  height: 40px;
+  margin-right: 18px;
+  background-color: $trading-badge-bg;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: $text-secondary;
+  z-index: 10;
+
+  &::before {
+    position: absolute;
+    content: '';
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M21.1896 6.09155C21.1652 5.93588 21.0144 5.81426 20.8539 5.81426H15.3324V4.49103C15.3324 3.59105 14.6026 2.86133 13.7027 2.86133H10.4919C9.5919 2.86133 8.86218 3.59105 8.86218 4.49103V5.81426H3.34064C3.16064 5.81426 2.99524 5.9748 3.0001 6.15479V17.7817C3.0001 19.0076 3.99252 20 5.21845 20H18.9761C20.202 20 21.1944 19.0076 21.1944 17.7817V6.15479C21.1944 6.13533 21.1944 6.11101 21.1896 6.09155ZM13.6735 11.2872H10.5259C10.3362 11.2872 10.1854 11.438 10.1854 11.6277V13.0482H6.22546C5.79736 13.0287 5.43737 12.7223 5.3498 12.3039L3.78334 6.49533H20.4063L18.8496 12.3039C18.762 12.7223 18.402 13.0287 17.9739 13.0482H14.014V11.6277C14.014 11.438 13.8583 11.2872 13.6735 11.2872ZM10.8616 13.3887V11.9682H13.3281V13.8801C13.3281 14.5612 12.7735 15.1157 12.0924 15.1157C11.4113 15.1157 10.8567 14.5612 10.8567 13.8801L10.8616 13.3887ZM9.53839 4.48617C9.53839 3.96077 9.96649 3.53753 10.487 3.53753H13.6978C14.2232 3.53753 14.6464 3.96077 14.6464 4.48617V5.80939H9.54325L9.53839 4.48617ZM18.9761 19.3189H5.21845C4.37198 19.3189 3.68118 18.6281 3.68118 17.7817V8.73314L4.68819 12.4839C4.85846 13.199 5.48601 13.7098 6.2206 13.7341H10.1805V13.885C10.1805 14.9406 11.0367 15.7968 12.0973 15.7968C13.1529 15.7968 14.0091 14.9406 14.0091 13.885V13.7341H17.9691C18.7037 13.7098 19.3312 13.199 19.5015 12.4839L20.5085 8.73314V17.7817C20.5134 18.6281 19.8226 19.3189 18.9761 19.3189Z' fill='%239197A4'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    top: 8px;
+    left: 20px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    color: $trading-badge-color-hover;
+
+    &::before {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M21.1896 6.09155C21.1652 5.93588 21.0144 5.81426 20.8539 5.81426H15.3324V4.49103C15.3324 3.59105 14.6026 2.86133 13.7027 2.86133H10.4919C9.5919 2.86133 8.86218 3.59105 8.86218 4.49103V5.81426H3.34064C3.16064 5.81426 2.99524 5.9748 3.0001 6.15479V17.7817C3.0001 19.0076 3.99252 20 5.21845 20H18.9761C20.202 20 21.1944 19.0076 21.1944 17.7817V6.15479C21.1944 6.13533 21.1944 6.11101 21.1896 6.09155ZM13.6735 11.2872H10.5259C10.3362 11.2872 10.1854 11.438 10.1854 11.6277V13.0482H6.22546C5.79736 13.0287 5.43737 12.7223 5.3498 12.3039L3.78334 6.49533H20.4063L18.8496 12.3039C18.762 12.7223 18.402 13.0287 17.9739 13.0482H14.014V11.6277C14.014 11.438 13.8583 11.2872 13.6735 11.2872ZM10.8616 13.3887V11.9682H13.3281V13.8801C13.3281 14.5612 12.7735 15.1157 12.0924 15.1157C11.4113 15.1157 10.8567 14.5612 10.8567 13.8801L10.8616 13.3887ZM9.53839 4.48617C9.53839 3.96077 9.96649 3.53753 10.487 3.53753H13.6978C14.2232 3.53753 14.6464 3.96077 14.6464 4.48617V5.80939H9.54325L9.53839 4.48617ZM18.9761 19.3189H5.21845C4.37198 19.3189 3.68118 18.6281 3.68118 17.7817V8.73314L4.68819 12.4839C4.85846 13.199 5.48601 13.7098 6.2206 13.7341H10.1805V13.885C10.1805 14.9406 11.0367 15.7968 12.0973 15.7968C13.1529 15.7968 14.0091 14.9406 14.0091 13.885V13.7341H17.9691C18.7037 13.7098 19.3312 13.199 19.5015 12.4839L20.5085 8.73314V17.7817C20.5134 18.6281 19.8226 19.3189 18.9761 19.3189Z' fill='%23fff'/%3E%3C/svg%3E");
+    }
+  }
+}
+
+.trading-link {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: $inter-regular;
+}
+
+.nav {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.logo {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 26px;
+  margin-right: 14px;
+  border-right: 1px solid $logo-border;
+}
+
+.nav-list {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-item {
+  list-style: none;
+  color: $nav-item-color;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: $inter-regular;
+  position: relative;
+  z-index: 10;
+
+  &:hover {
+    background-color: $nav-item-bg-hover;
+    cursor: pointer;
+    color: $nav-item-color-hover;
+    transition: ease-in-out 0.2s;
+  }
+
+  &.is-active {
+    color: $nav-item-color-active;
+    background-color: $nav-item-bg-active;
+  }
+}
+
+.logo-img {
+  position: relative;
+  width: 116px;
+  height: 21px;
+}
+
+.nav-link {
+  padding: 12px;
+}
+
